@@ -56,7 +56,7 @@ m.plot(fcst);
 future <- make_future_dataframe(m, periods = 1826)
 future$cap <- 8.5
 fcst <- predict(m, future)
-plot(m, fcst);
+plot(m, fcst)
 ```
  
 ![png](/prophet/static/forecasting_growth_files/forecasting_growth_13_0.png) 
